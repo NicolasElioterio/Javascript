@@ -66,10 +66,11 @@ alert(d.getMonth());
 alert(d.getFullYear());
 */
 
-
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
+
 
 function validarIdade(idade){
     var validar;
@@ -86,3 +87,16 @@ var idade = prompt('Qual sua idade ? ');
 console.log(validarIdade(idade));
 
 //alert(soma(10,5));
+*/
+
+
+function clicado(){
+    document.getElementById('agradecimento').innerHTML = '<b>Obrigado por clicar.</b>';
+    //console.log(document.getElementById('agradecimento'));
+    //alert('Obrigado por clicar')
+}
+
+function redirecionar(){
+    window.open('https://www.google.com');
+    //window.location.href = 'https://www.google.com';
+}
